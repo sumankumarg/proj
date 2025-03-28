@@ -1,8 +1,31 @@
 <html>
+	<head>
+<title>Welcome!</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.welcome-message {
+  font-size: 24px;
+  color: #4CAF50; /* Green color */
+  border: 2px solid #4CAF50;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+</style>
+</head>
 <body>
-<link rel='stylesheet' href='https://bots.kore.ai/webclient/UI/dist/kore-ai-sdk.min.css'></link>
+<!--<link rel='stylesheet' href='https://bots.kore.ai/webclient/UI/dist/kore-ai-sdk.min.css'></link>
 <script src='https://bots.kore.ai/api/platform/websdkjs/d27e797971db478aa4e364afbc4579c3afbcbb4850564a86bf5dc4fb571a29e7st7d'></script>
 <script>KoreSDK.show(KoreSDK.chatConfig);</script>
+-->
+
+
+	<script src='https://cdn.jsdelivr.net/npm/kore-web-sdk@11.11.1/dist/umd/kore-web-sdk-umd-chat.min.js'></script> 
+	<script> KoreChatSDK.chatConfig.botOptions.API_KEY_CONFIG.KEY = 'aecbb5f58c014a22b00bef7f76a18e004b1b5e6053594c4dab7b999395d7b6e5st66'; new KoreChatSDK.chatWindow().show(KoreChatSDK.chatConfig); </script>
 	
 </body>
 </html>
